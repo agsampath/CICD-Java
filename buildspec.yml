@@ -7,9 +7,7 @@ phases:
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
-      - sudo apt-get update
-      - sudo apt-get install -y xvfb
-  build:
+   build:
     commands:
       - echo Build started on `date`
       - mvn install
